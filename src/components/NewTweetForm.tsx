@@ -53,7 +53,7 @@ function Form() {
           user: {
             id: session.data.user.id,
             name: session.data.user.name || null,
-            image: session.data.user.email || null,
+            image: session.data.user.image || null,
           },
         };
 
